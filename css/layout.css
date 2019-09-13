@@ -102,6 +102,7 @@ header .banner-text h3 {
 header .banner-text h3 span,
 header .banner-text h3 a {
     color: #fff;
+    cursor: pointer;
 }
 
 header .banner-text hr {
