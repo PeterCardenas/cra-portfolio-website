@@ -317,12 +317,12 @@ ul#nav li.current a {
 
 #resume a,
 #resume a:visited {
-    color: #11ABB0;
+    color: rgb(173, 173, 173);
 }
 
 #resume a:hover,
 #resume a:focus {
-    color: #313131;
+    color: #11ABB0;
 }
 
 #resume h1 {
@@ -456,6 +456,11 @@ ul#nav li.current a {
     animation: java 2s ease;
 }
 
+.python {
+    width: 80%;
+    animation: python 2s ease;
+}
+
 @keyframes css {
     0% {
         width: 0px;
@@ -523,6 +528,16 @@ ul#nav li.current a {
 
     100% {
         width: 65%;
+    }
+}
+
+@keyframes python {
+    0% {
+        width: 0px;
+    }
+
+    100% {
+        width: 80%;
     }
 }
 
